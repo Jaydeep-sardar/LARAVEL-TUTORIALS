@@ -12,3 +12,4 @@ Route::get('/users', function () {
         ['id' => 2, 'name' => 'Bob'],
     ];
 });
+Route::get('/user', [UserController::class, 'index']);
