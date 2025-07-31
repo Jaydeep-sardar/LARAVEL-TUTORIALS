@@ -3,7 +3,7 @@
 // Basic Laravel-like routing demo
 
 Route::get('/', function () {
-    return 'Welcome to the Laravel Demo Homepage!';
+    return view('welcome');
 });
 
 Route::get('/users', function () {
